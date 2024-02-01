@@ -26,7 +26,7 @@ Instructions for setting up the development environment.
 
    ```bash
    python -m venv venv
-   venv/bin/activate
+   myenv\Scripts\activate (on Windows)
    cd gapsi_ecommerce
 
 4. Install dependencies from the requirements.txt file:

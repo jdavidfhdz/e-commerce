@@ -94,9 +94,6 @@ celerybeat-schedule
 
 gus/test.txt
 
-# dotenv
-.env
-
 # virtualenv
 .venv
 venv/
