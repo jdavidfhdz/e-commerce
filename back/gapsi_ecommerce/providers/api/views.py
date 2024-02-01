@@ -8,6 +8,7 @@ from gapsi_ecommerce.pagination import Pagination
 from providers.api.serializer import ProviderSerializer
 from providers.models import Provider
 from storage import storage
+from rest_framework.permissions import AllowAny
 
 
 class AddProvider(Schema):
@@ -72,7 +73,7 @@ class ProviderList(generics.ListAPIView):
     serializer_class = ProviderSerializer
     pagination_class = Pagination
     filter_backends = (OrderingFilter,)
-    permission_classes = ()
+    permission_classes = ([AllowAny])
     ordering_fields = [
         'name',
     ]

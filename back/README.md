@@ -1,6 +1,6 @@
 # GAPSI E-COMMERCE
 
-A brief and concise description of the project.
+Back-end project for e-commerce app
 
 ## Requirements
 
@@ -15,18 +15,19 @@ Instructions for setting up the development environment.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/your_project.git
+   git clone https://github.com/jdavidfhdz/e-commerce.git
 
 2. Navigate to the project directory:
 
    ```bash
    cd e-commerce\back\
 
-3. Create and activate a virtual environment (recommended):
+3. Create and activate a virtual environment (recommended) and go to gapsi_ecommerce directory:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate
+   venv/bin/activate
+   cd gapsi_ecommerce
 
 4. Install dependencies from the requirements.txt file:
  
@@ -48,7 +49,7 @@ Instructions for setting up the development environment.
 1. Run the server:
 
    ```bash
-   python manage.py runserver
+   python manage.py runserver 8100
 
 ## API Documentation
 

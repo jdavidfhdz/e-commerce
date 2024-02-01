@@ -1,14 +1,8 @@
 [
     {
-        "id": 2,
+        "id": 11,
         "name": "David",
-        "business_name": "Empresa B",
-        "address": "Puebla"
-    },
-    {
-        "id": 4,
-        "name": "Julissa",
-        "business_name": "Empresa XZ",
+        "business_name": "Empresa A",
         "address": "Puebla"
     }
 ]
