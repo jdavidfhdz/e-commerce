@@ -1,0 +1,14 @@
+[
+    {
+        "id": 2,
+        "name": "David",
+        "business_name": "Empresa B",
+        "address": "Puebla"
+    },
+    {
+        "id": 4,
+        "name": "Julissa",
+        "business_name": "Empresa XZ",
+        "address": "Puebla"
+    }
+]
